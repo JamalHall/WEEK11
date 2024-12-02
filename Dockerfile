@@ -8,4 +8,6 @@ RUN pip install -r requirements.txt
 
 COPY . .
 
+ENV CONFIG_VALUE="HelloDocker"
+
 CMD ["python", "app.py"]
